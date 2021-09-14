@@ -44,3 +44,17 @@ const clickedClass = 'clicked';
 h1.className.toggle('clicked');
 ```
 
+#### Date
+```
+console.log(typeof Date); // function
+```
+JavaScript에는 생성자 함수라는 것이 존재한다.
+new 를 선두에 쓰고 생성자 함수를 호출하면 instance object를 반환한다.
+이는 생성자 함수로 객체를 생성할 때 하기로 한 약속(문법)이다.
+생성자 함수는 arguments를 받을 수 있다.
+
+```
+const date = new Date();
+console.log(typeof date); // object
+```
+이렇게 생성한 date 객체를 object.property와 같은 형식으로 사용할 수 있다.
